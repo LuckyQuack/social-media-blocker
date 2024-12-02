@@ -1,0 +1,30 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Blocker</title>
+</head>
+<body>
+  <h2>Social Media Blocker</h2>  
+  <form id="siteForm">
+    <label>Site URL:</label>
+    <input type="text" id="siteUrl" placeholder="e.g., reddit.com" required>
+    <br>
+    <label>Time Limit (minutes):</label>
+    <input type="number" id="siteTime" min="1" required>
+    <br>
+    <button type="submit">Add Site</button>
+  </form>
+  <h3>Blocked Sites</h3>
+  <ul id="siteList"></ul>
+</body>
+<script src="popup.js"></script>
+<!-- Reset Time Section -->
+<h3>Reset Time</h3>
+<form id="resetForm">
+  <label for="resetTime">Choose Reset Time:</label>
+  <input type="time" id="resetTime" required>
+  <button type="submit">Set Reset Time</button>
+</form>
+<p id="resetStatus"></p>
+</html>
