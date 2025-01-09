@@ -1,5 +1,7 @@
 Social Media Blocker
+
 A Chrome extension that helps you manage your social media usage by setting daily time limits and automatically removing distracting media content once those limits are reached.
+
 Features
 
 Set custom time limits for different social media websites
@@ -16,7 +18,6 @@ Enable "Developer mode" in the top right corner
 Click "Load unpacked" and select the extension directory
 
 Usage
-Adding Sites to Block
 
 Click the extension icon in your Chrome toolbar
 Enter the site URL (e.g., "reddit.com") in the "Site URL" field
